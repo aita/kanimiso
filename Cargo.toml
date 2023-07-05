@@ -7,3 +7,4 @@ edition = "2021"
 
 [dev-dependencies]
 rstest = "0.18.1"
+indoc = "2.0.2"

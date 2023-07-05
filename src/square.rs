@@ -32,6 +32,11 @@ impl Square {
     pub fn rank(&self) -> u8 {
         self.0 % 9
     }
+
+    #[inline(always)]
+    pub fn index(&self) -> usize {
+        self.0 as usize
+    }
 }
 
 impl Debug for Square {
